@@ -1,0 +1,142 @@
+
+@media screen and (max-width: 540px) {
+   
+
+    h2 {
+        text-align: center;
+        /* width: 157px; */
+
+        height: 50px;
+        flex-shrink: 0;
+        /* margin-right: 10px; */
+        color: var(--, #241400);
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 196.187%;
+
+    }
+
+    .contact-form {
+        margin-right: 5rem;
+    }
+
+    .name,
+    .email,
+    .address,
+    .phone {
+
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    color: #241400;
+    font-family: "Crimson Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .inputs{
+       
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .forum input{
+        border: 1px solid #CECECE;
+
+    }
+
+    .btns{
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .button {
+        height: 37px;
+        margin: 0 auto;
+
+        border-radius: 5px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        margin-top: 49px;
+        padding: 10px 6.8rem 20px;
+        
+    }
+
+    .note {
+       width: 240px;
+       height: 100px;
+       border-radius: 5px;
+       margin-bottom: 20px;
+       margin-top: 20px;
+       color: #241400;
+       font-family: "Crimson Text";
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 541px) {
+    h2{
+        margin-top: 50px;
+    }
+    .note{
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 14px;
+        color: #797667;
+        font-family: "Crimson Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 80px;
+    }
+
+
+    .button{
+        /* padding: 20px 14.7rem 20px; */
+        height: 60px;
+
+        border-radius: 5px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        padding-left: 200px;
+        
+        
+        
+       
+    }
+
+   
+
+
+    .name,
+    .email,
+    .address,
+    .phone {
+        border-radius: 5px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+
+}
